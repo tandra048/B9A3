@@ -36,7 +36,7 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-   <header class="mx-auto">
+   <header class="container mx-auto">
    <div class="navbar bg-base-100 shadow-sm">
   <div class="navbar-start">
     <div class="dropdown">
@@ -63,10 +63,61 @@
         <li><a>Contact</a></li>
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end flex gap-4">
+    <img src="images/Frame.png" alt="">
     <a class="btn bg-back text-white">Get Ticket</a>
   </div>
 </div>
    </header> 
+
+   <!-- banner section -->
+    <section class="container mx-auto my-12">
+        <div class="relative">
+     <div class=" carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img
+      src="images/1.png"
+      class="w-full" />
+    <div class="absolute left-5  bottom-5 flex gap-3 -translate-y-1/2 transform ">
+      <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+      <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full">
+    <img
+      src="images/2.png"
+      class="w-full" />
+    <div class="absolute left-5 bottom-5 flex gap-3 -translate-y-1/2 transform ">
+      <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+      <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img
+      src="images/3.png"
+      class="w-full" />
+    <div class="absolute left-5  bottom-5 flex gap-3 -translate-y-1/2 transform justify-between">
+      <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+      <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+    </div>
+  </div>
+  <div id="slide4" class="carousel-item relative w-full">
+    <img
+      src="images/4.png"
+      class="w-full" />
+    <div class="absolute left-5 bottom-5 flex gap-3 -translate-y-1/2 transform justify-between">
+      <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+      <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+    </div>
+  </div>
+        </div>
+  <div class="lg:absolute bottom-8 right-8">
+    <div class="bg-black text-white p-8  lg:w-[566px] rounded-xl">
+      <h2 class="font-extrabold text-2xl mb-3">Meet all the heroes from the field</h2>
+      <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+  </div>
+  </div>
+</div>
+    </section>
 </body>
 </html>
